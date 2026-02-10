@@ -1,9 +1,11 @@
+import Hero from "./components/Hero.jsx"
+import Projects from "./components/Projects.jsx"
 
 function App() {
-
   return (
     <div>
-      <h1>Hello Word</h1>
+      <Hero />
+      <Projects />
     </div>
   )
 }
