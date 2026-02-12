@@ -24,7 +24,6 @@ function Hero() {
             <a href="#" className="nav-link">Projetos</a>
             <a href="#" className="nav-link">Sobre mim</a>
             <a href="#" className="nav-link">Contato</a>
-            <a href="#">🌑</a>
           </nav>
         </header>
 

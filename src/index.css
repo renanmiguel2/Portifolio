@@ -50,4 +50,12 @@
       ease-in-out
       hover:-translate-y-2.5;
   }
+  .gradient-title {
+  background: linear-gradient(90deg, #979393 40%, #434344 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
 }

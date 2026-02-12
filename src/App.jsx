@@ -5,9 +5,9 @@ import Sobremim from "./components/Sobremim.jsx"
 function App() {
   return (
     <div>
-      <Hero />
-      <Projects />
-      <Sobremim />
+        <Hero />
+        <Projects />
+        <Sobremim />
     </div>
   )
 }
