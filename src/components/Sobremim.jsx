@@ -1,6 +1,6 @@
 import css from "../img/img-to-about/Css.png"
 import html from "../img/img-to-about/Html5.png"
-import javascript from "../img/img-to-about/JavaScript-normal.png"
+import javascript from "../img/img-to-about/Javascript-normal.png"
 import react from "../img/img-to-about/React.png"
 
 function Sobremim() {
