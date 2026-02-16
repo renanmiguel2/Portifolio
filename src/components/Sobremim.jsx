@@ -12,12 +12,12 @@ function Sobremim() {
     ]
 
     return (
-        <section className="w-full px-6 py-28">
+        <section className="w-full px-6 py-28" id="sobremim">
             <div className="max-w-4xl mx-auto">
                 
-                <h1 className="font-inter text-3xl md:text-4xl text-center font-extrabold mb-18 gradient-title tracking-wide">
+                <h2 className="font-inter text-3xl md:text-4xl text-center font-extrabold mb-18 gradient-title tracking-wide">
                     Sobre mim
-                </h1>
+                </h2>
 
                 <div className="space-y-4 text-zinc-200 font-medium text-sm md:text-base leading-7 max-w-3xl mx-auto">
                     <p>
@@ -40,7 +40,7 @@ function Sobremim() {
                     {skills.map((skill) => (
                         <div
                             key={skill.name}
-                            className="flex items-center-safe justify-center py-2 px-2 rounded-xl
+                            className="flex items-center justify-center p-4 rounded-xl
                             bg-zinc-900/60 border border-zinc-800
                             hover:scale-105 hover:-translate-y-2 hover:shadow-lg hover:shadow-cyan-500/20 transition duration-300 ease-out gap-2"
                         >

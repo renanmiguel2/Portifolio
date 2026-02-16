@@ -1,12 +1,26 @@
+import { useEffect, useRef, useState } from "react"
 import imgHome from "../img/img-home/img-home.png"
 function Hero() {
+  const refHome = useRef(null)
+  const [visivel, setVisivel] = useState(false)
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      setVisivel(!entries[0].isIntersecting)
+    })
+    if (refHome.current) {
+      observer.observe(refHome.current)
+    }
+
+  }, [])
+
+
   return (
-    <div className="relative min-h-screen">
+    <section className="relative min-h-screen" id="home" ref={refHome}>
 
       <div className="absolute inset-0 z-0">
         <img
           src={imgHome}
-          alt=""
+          alt="Imagem de fundo"
           className="w-full h-full object-cover blur-[3px]"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-black/80"></div>
@@ -20,10 +34,10 @@ function Hero() {
           </h1>
 
           <nav className="hidden md:flex gap-8 text-lg">
-            <a href="#" className="nav-link">Home</a>
-            <a href="#" className="nav-link">Projetos</a>
-            <a href="#" className="nav-link">Sobre mim</a>
-            <a href="#" className="nav-link">Contato</a>
+            <a href="#home" className="nav-link">Home</a>
+            <a href="#projetos" className="nav-link">Projetos</a>
+            <a href="#sobremim" className="nav-link">Sobre mim</a>
+            <a href="#contato" className="nav-link">Contato</a>
           </nav>
         </header>
 
@@ -45,9 +59,10 @@ function Hero() {
               Construo interfaces simples, responsivas e bem organizadas.
             </p>
 
-            <button className="bg-personality py-3.5 px-12 rounded-2xl hover:opacity-90 transition duration-300 hover:scale-105 cursor-pointer">
-              Ver projetos
-            </button>
+            <a
+              href="#projetos" className="inline-block bg-personality py-3.5 px-12 rounded-2xl hover:opacity-90 duration-300 transform hover:scale-105 cursor-pointer"
+            >
+              Ver projetos</a>
           </div>
         </section>
       </div>
@@ -68,7 +83,17 @@ function Hero() {
           />
         </svg>
       </div>
-    </div>
+      {visivel && (
+        <div className="fixed bottom-6 right-6 z-50">
+          <a href="#home">
+            <svg fill="#fff" width="50px" height="30px" viewBox="0 0 36 36" version="1.1" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+              <path d="M27.66,15.61,18,6,8.34,15.61A1,1,0,1,0,9.75,17L17,9.81V28.94a1,1,0,1,0,2,0V9.81L26.25,17a1,1,0,0,0,1.41-1.42Z" className="clr-i-outline clr-i-outline-path-1"></path>
+              <rect x="0" y="0" width="36" height="36" fillOpacity="0" />
+            </svg>
+          </a>
+        </div>
+      )}
+    </section>
   )
 }
 export default Hero

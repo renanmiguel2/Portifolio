@@ -13,7 +13,7 @@ function Projects() {
   ]
 
   return (
-    <div className="flex flex-col gap-8 mt-11">
+    <section id="projetos" className="flex flex-col gap-8 mt-11">
         <h1 className="font-inter text-3xl md:text-4xl text-center font-extrabold gradient-title mb-10 tracking-wide">Projetos</h1>
       <div className="flex flex-col md:flex-row gap-8 mx-auto">
           {projects.map((project) => (
@@ -34,6 +34,7 @@ function Projects() {
                 <a
                   href={project.live}
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="flex-1 text-center bg-cyan-600 hover:opacity-80 hover:scale-105 transition-transform duration-300 ease-out  py-2 rounded-xl"
                 >
                   Projeto
@@ -41,6 +42,7 @@ function Projects() {
                 <a
                   href={project.repo}
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="flex-1 text-center bg-zinc-700 hover:opacity-80 hover:scale-105 transition-transform duration-200 ease-out py-2 rounded-xl"
                 >
                   Código
@@ -49,7 +51,7 @@ function Projects() {
             </div>
           ))}
               </div>
-      </div>
+      </section>
   )
 }
 

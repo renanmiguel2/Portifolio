@@ -1,6 +1,6 @@
 # Portfólio
 
-Meu portfólio pessoal foi desenvolvido com foco em código organizado, layout minimalista e responsivo.
+Meu portifólio pessoal foi desenvolvido com foco em código organizado, layout minimalista e responsivo.
 
 ## Tecnologias utilizadas
 - React (Vite)
