@@ -1,14 +1,14 @@
-import apple from "../img/img-to-projects/appleProjects.png"
+import pokedex from "../img/img-to-projects/Pokedex-img.png"
 
 function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Apple",
-      description: "Site feito pra exercitar os conhecimentos de React e Tailwind",
-      image: apple,
-      live: "https://renanmiguel2.github.io/Apple/",
-      repo: "https://github.com/renanmiguel2/Apple",
+      title: "Pokedex",
+      description: "Site feito para mostrar os pokemons, utilizando a API do PokeAPI, onde é possível ver as informações de cada pokemon.",
+      image: pokedex,
+      live: "https://rnpokedex.netlify.app/",
+      repo: "https://github.com/renanmiguel2/Pokedex",
     },
   ]
 
