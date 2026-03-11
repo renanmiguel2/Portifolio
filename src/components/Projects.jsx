@@ -27,7 +27,7 @@ function Projects() {
                 className="rounded-xl h-40 w-full object-cover"
               />
               <h3 className="text-xl font-semibold">{project.title}</h3>
-              <p className="text-sm text-zinc-400 line-clamp-3">
+              <p className="text-sm text-zinc-400 ">
                 {project.description}
               </p>
               <div className="mt-auto flex gap-3">
