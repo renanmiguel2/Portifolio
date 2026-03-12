@@ -14,25 +14,22 @@ function Sobremim() {
     return (
         <section className="w-full px-6 py-28" id="sobremim">
             <div className="max-w-4xl mx-auto">
-                
+
                 <h2 className="font-inter text-3xl md:text-4xl text-center font-extrabold mb-18 gradient-title tracking-wide">
                     Sobre mim
                 </h2>
 
-                <div className="space-y-4 text-zinc-200 font-medium text-sm md:text-base leading-7 max-w-3xl mx-auto">
+                <div className="space-y-4 text-zinc-200 font-medium text-sm md:text-md text-md md:text-lg leading-7 max-w-3xl mx-auto">
                     <p>
-                        Sou desenvolvedor Front End com foco em React e Tailwind CSS.
-                        Gosto de criar interfaces limpas, responsivas e com código bem organizado.
+                        Sou desenvolvedor Front End com foco em React e Tailwind CSS. Gosto de criar interfaces limpas, responsivas e interativas.
                     </p>
 
                     <p>
-                        Atualmente estudo e desenvolvo projetos próprios para evoluir na prática,
-                        sempre buscando melhorar performance, acessibilidade e experiência do usuário.
+                        Atualmente desenvolvo projetos próprios para evoluir na prática, Tenho dominio de HTML, CSS, Javascript, React e Tailwind CSS e atualmente estou buscando melhorias de codigo.
                     </p>
 
                     <p>
-                        Estou em busca da minha primeira oportunidade como desenvolvedor júnior,
-                        onde eu possa aprender, contribuir e crescer profissionalmente.
+                        Estou em busca da minha primeira oportunidade como desenvolvedor júnior, onde eu possa aprender, contribuir e crescer profissionalmente.
                     </p>
                 </div>
 

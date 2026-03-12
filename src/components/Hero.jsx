@@ -33,7 +33,7 @@ function Hero() {
             Portifó<span className="text-cyan-600">lio</span>
           </h1>
 
-          <nav className="hidden md:flex gap-8 text-lg">
+          <nav className="hidden md:flex gap-8 text-lg md:text-xl font-medium text-zinc-200">
             <a href="#home" className="nav-link">Home</a>
             <a href="#projetos" className="nav-link">Projetos</a>
             <a href="#sobremim" className="nav-link">Sobre mim</a>
@@ -43,24 +43,24 @@ function Hero() {
 
         <section className="mt-40 px-6 md:px-12 lg:px-16">
           <div className="text-center lg:text-left">
-            <p className="text-lg md:text-xl font-medium">
+            <p className="text-lg md:text-xl lg:text-2xl font-medium">
               Renan Miguel
             </p>
 
-            <h2 className="font-bold text-4xl md:text-5xl my-5">
+            <h2 className="font-bold text-4xl md:text-5xl  my-5">
               Front <span className="text-cyan-500">End</span>
             </h2>
 
-            <p className="text-md md:text-lg mb-1">
+            <p className="text-md md:text-lg lg:text-xl mb-1">
               Desenvolvedor Front End focado em HTML, CSS e JavaScript.
             </p>
 
-            <p className="text-md md:text-lg mb-6">
+            <p className="text-md md:text-lg lg:text-xl mb-6">
               Construo interfaces simples, responsivas e bem organizadas.
             </p>
 
             <a
-              href="#projetos" className="inline-block bg-personality py-3.5 px-12 rounded-2xl hover:opacity-90 duration-300 transform hover:scale-105 cursor-pointer"
+              href="#projetos" className="inline-block bg-personality py-3.5 px-12 lg:px-15 lg:py-4 lg:text-lg rounded-2xl hover:opacity-90 duration-300 transform hover:scale-105 cursor-pointer"
             >
               Ver projetos</a>
           </div>
