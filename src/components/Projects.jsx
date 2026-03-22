@@ -1,4 +1,5 @@
 import pokedex from "../img/img-to-projects/Pokedex-img.png"
+import rs7 from "../img/img-to-projects/printAudi.png"
 
 function Projects() {
   const projects = [
@@ -10,6 +11,14 @@ function Projects() {
       live: "https://rnpokedex.netlify.app/",
       repo: "https://github.com/renanmiguel2/Pokedex",
     },
+    {
+      id: 2,
+      title: "Clone da audi",
+      description: "Site feito com React e tailwind inspirado no site da audi, o site conta com configurador de cores de carro, layout responsivo e menu mobile.",
+      image:rs7,
+      live: "https://cloneaudi.netlify.app/",
+      repo: "https://github.com/renanmiguel2/Audi-rs7"
+    }
   ]
 
   return (
