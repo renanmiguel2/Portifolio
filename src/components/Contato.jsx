@@ -3,7 +3,7 @@ import linkedin from "../img/img-contato/linkedin.png"
 import email from "../img/img-contato/gmail.png"
 function Contato() {
     const contatos = [
-        { icon: email, titulo: "Email", link: "mailto:renanmiguel19900@gmail.com", meuGmail: "renanmiguel19900@gmail.com" },
+        { icon: email, titulo: "Email", link: "mailto:renanmiguel1901@gmail.com", meuGmail: "renanmiguel1901@gmail.com" },
         { icon: linkedin, titulo: "Linkedin", link: "https://www.linkedin.com/in/renanmiguel2/" },
         { icon: github, titulo: "Github", link: "https://github.com/renanmiguel2" },
     ]
